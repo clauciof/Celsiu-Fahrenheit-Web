@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>@clauceta</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src = "Javascript\Javascript.js" type = "text/javascript"></script>
+
+    </head>
+    <body>
+        <div>
+            <h1>CELSIU-FAHRENHEIT</h1>
+            <form name="Form" action="Table.php" method="POST" onsubmit="return validaform();">
+            <fieldset>
+                <legend>Formulário de Temperaturas</legend>
+                Temperatura Mínima: <input type="text" name ="valorminimo" id="valorminimo" /> <br/><br>
+                Temperatura Máxima: <input type="text" name ="valormaximo" id="valormaximo" /> <br/><br>
+                INC: <input type="text" name="incremento" id="incremento" /> <br/><br>
+               <!-- Senha: <input type="password" name="senha" /><br/>
+                Gênero: <input type="radio" name="genero" value="Masculino" />  Masculino
+                <input type="radio" name="genero" value="Feminino" /> Feminino <br/>
+                <input type="checkbox" name="receber" value="ok" /><br/>
+                <input type="hidden" name="teste" value="testando" />-->
+                <input type="submit" name="enviar" value="Enviar" />
+            </fieldset>
+        </form>
+        </div>
+
+
+
+    </body>
+</html>
